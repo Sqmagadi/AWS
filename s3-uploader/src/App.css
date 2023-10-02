@@ -1,0 +1,155 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+header, footer {
+    background: var(--primary);
+}
+
+header .container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-block: 10px;
+    color: var(--white);
+}
+
+header .container .logo {
+    color: var(--accent);
+    font-size: 40px;
+}
+
+.btn {
+    background: var(--primary);
+    color: var(--white);
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.btn.disabled {
+    cursor: not-allowed;
+    background: var(--disabled);
+}
+
+
+.content {
+    flex-grow: 1;
+}
+
+.content .container {
+    margin-top: 20px;
+    background: var(--white);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.file-input {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 80%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed var(--primary-light);
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.file-input .file-icon {
+    font-size: 40px;
+    color: var(--accent);
+}
+
+.file-input p {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.file-display {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px 20px;
+    background: var(--light-gray);
+}
+
+.file-display .delete-btn {
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.message {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.success {
+    background: var(--success);
+}
+
+.error {
+    background: var(--error);
+}
+
+.message .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message .top .close-btn {
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.message .content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.message .content a {
+    color: var(--accent);
+}
+
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 20px;
+    color: var(--white);
+}
+
+footer .container span {
+    color: var(--accent);
+}
+
+@media screen and (min-width: 768px) {
+    footer .container {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+

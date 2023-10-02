@@ -1,0 +1,57 @@
+:root {
+    --fs-1: 2.5rem;
+    --fs-2: 2.0rem;
+    --fs-3: 1.8rem;
+    --primary: #264653;
+    --primary-light: #86EFAC;
+    --secondary: #E9C46A;
+    --secondary-light: #FFEDD5;
+    --accent: #E76F51;
+    --white: #ffffff;
+    --light-gray: #F9FAFB;
+    --success: #DCFCE7;
+    --error: #FECACA;
+    --disabled: #4c8da7;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+h1 {
+    font-size: var(--fs-1);
+}
+
+h2 {
+    font-size: var(--fs-2);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: var(--fs-3);
+    background-color: var(--secondary-light);
+}
+
