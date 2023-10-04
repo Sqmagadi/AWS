@@ -12,12 +12,18 @@
 
 3. Secure access to AWS resources for applications that run on Amazon EC2
 4. Multi-factor authentication (MFA)
-5. Identity federation
-`<p>You can allow users who already have passwords elsewhere—for example, in your corporate network or with an internet identity provider—to get temporary access to your AWS account</p>`
+5. Identity federation:
+   `You can allow users who already have passwords elsewhere—for example, in your corporate network or with an internet identity provider—to get temporary access to your AWS account`
 
 6. Identity information for assurance
 7. PCI DSS Compliance
 <p>IAM supports the processing, storage, and transmission of credit card data by a merchant or service provider, and has been validated as being compliant with Payment Card Industry (PCI) Data Security Standard (DSS)</p>
+``` json
+{
+"myname" : "john"'
+"age" : 23
+}
+```
 
 8. Integrated with many AWS services
 9. Eventually Consistent
