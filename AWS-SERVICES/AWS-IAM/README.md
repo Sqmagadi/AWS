@@ -13,7 +13,7 @@
 3. Secure access to AWS resources for applications that run on Amazon EC2
 4. Multi-factor authentication (MFA)
 5. Identity federation
-<p>You can allow users who already have passwords elsewhere—for example, in your corporate network or with an internet identity provider—to get temporary access to your AWS account</p>
+`<p>You can allow users who already have passwords elsewhere—for example, in your corporate network or with an internet identity provider—to get temporary access to your AWS account</p>`
 
 6. Identity information for assurance
 7. PCI DSS Compliance
@@ -21,6 +21,7 @@
 
 8. Integrated with many AWS services
 9. Eventually Consistent
+    
 
 # When do I use IAM?
 1. When you are performing different job functions
