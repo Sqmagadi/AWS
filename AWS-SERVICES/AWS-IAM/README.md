@@ -84,7 +84,7 @@ The following example uses CloudShell to create an IAM group, add an IAM user to
 
 ```aws iam create-group --group-name east_coast```
 
-    If the call is successful, the command line displays a response from the service similar to the following output:
+###If the call is successful, the command line displays a response from the service similar to the following output:
 
 ```json
 {
@@ -108,7 +108,7 @@ The following example uses CloudShell to create an IAM group, add an IAM user to
 
 ```aws iam get-group --group-name east_coast```
 
-    If the call is successful, the command line displays a response from the service similar to the following output:
+###If the call is successful, the command line displays a response from the service similar to the following output:
 
 ```json
 {
@@ -132,7 +132,7 @@ The following example uses CloudShell to create an IAM group, add an IAM user to
 }
 ```
 
-<img src="images/AWS-SHELL-ADD-USER-TO-USER-GROUP.jpeg" width= "60%" height= "auto">
+<img src="images/AWS-SHELL-ADD-USER-TO-USER-GROUP.jpeg" width= "80%" height= "auto">
         
 # Security best practices in IAM
 
