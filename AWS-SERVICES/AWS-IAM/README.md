@@ -12,8 +12,8 @@
 
 3. Secure access to AWS resources for applications that run on Amazon EC2
 4. Multi-factor authentication (MFA)
-5. Identity federation
-<p>You can allow users who already have passwords elsewhere—for example, in your corporate network or with an internet identity provider—to get temporary access to your AWS account</p>
+5. Identity federation:-
+`You can allow users who already have passwords elsewhere—for example, in your corporate network or with an internet identity provider—to get temporary access to your AWS account`
 
 6. Identity information for assurance
 7. PCI DSS Compliance
