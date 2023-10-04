@@ -18,7 +18,7 @@
 6. Identity information for assurance
 7. PCI DSS Compliance
 <p>IAM supports the processing, storage, and transmission of credit card data by a merchant or service provider, and has been validated as being compliant with Payment Card Industry (PCI) Data Security Standard (DSS)</p>
-``` json
+```json
 {
 "myname" : "john"'
 "age" : 23
